@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/564/564429.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Calculator</title>
+</head>
+
+<body>
+    <div class="Calculator_Container">
+        <input type="text" placeholder="Display Result..." readonly id="DisplayRes">
+        <div class="button_container">
+            <button onclick="
+                displayRes=''
+                document.querySelector('#DisplayRes').value=displayRes
+                " class="button">C</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'1'
+            document.querySelector('#DisplayRes').value=displayRes">1</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'2'
+            document.querySelector('#DisplayRes').value=displayRes">2</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'+'
+            document.querySelector('#DisplayRes').value=displayRes">+</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'3'
+            document.querySelector('#DisplayRes').value=displayRes">3</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'4'
+            document.querySelector('#DisplayRes').value=displayRes">4</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'-'
+            document.querySelector('#DisplayRes').value=displayRes">-</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'5'
+            document.querySelector('#DisplayRes').value=displayRes">5</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'6'
+            document.querySelector('#DisplayRes').value=displayRes">6</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'*'
+            document.querySelector('#DisplayRes').value=displayRes">*</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'7'
+            document.querySelector('#DisplayRes').value=displayRes">7</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'8'
+            document.querySelector('#DisplayRes').value=displayRes">8</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'/'
+            document.querySelector('#DisplayRes').value=displayRes">/</button>
+
+
+            <button class="button" onclick="displayRes=eval(displayRes)
+            document.querySelector('#DisplayRes').value=displayRes">=</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'9'
+            document.querySelector('#DisplayRes').value=displayRes">9</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'0'
+            document.querySelector('#DisplayRes').value=displayRes">0</button>
+
+
+            <button class="button" onclick="displayRes=displayRes+'.'
+            document.querySelector('#DisplayRes').value=displayRes">.</button>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
